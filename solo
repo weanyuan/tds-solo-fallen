@@ -1,6 +1,6 @@
 getgenv().Matchmaking = true
 getgenv().DefaultCam = 1
-local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/Sigmanic/Strategies-X/main/MainSource.lua", true))()
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/Sigmanic/Strategies-X/refs/heads/main/TDS/MainSource.lua", true))()
 TDS:Map("Pizza Party", true, "Survival")
 TDS:Loadout({"Shotgunner", "DJ Booth", "Commander", "Freezer", "Farm"})
 TDS:Skip(0, 0, 0.8999999999999999, false)
